@@ -1,0 +1,5 @@
+C:\Projects\Rovers\Rovers\Rovers\bin\Debug\Rovers.dll
+C:\Projects\Rovers\Rovers\Rovers\bin\Debug\Rovers.pdb
+C:\Projects\Rovers\Rovers\Rovers\obj\Debug\Rovers.csprojResolveAssemblyReference.cache
+C:\Projects\Rovers\Rovers\Rovers\obj\Debug\Rovers.dll
+C:\Projects\Rovers\Rovers\Rovers\obj\Debug\Rovers.pdb
