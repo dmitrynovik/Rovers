@@ -56,11 +56,11 @@ namespace Rovers.IO
         {
             string line = reader.ReadLine();
             if (string.IsNullOrEmpty(line))
-                throw new ArgumentException("Read error: unexpected empty string.");
+                throw new RoverException("Input read error: unexpected empty string.");
 
             var dimensions = line.Split(new char[] {Delimiter}, StringSplitOptions.RemoveEmptyEntries);
             if (dimensions.Length != expectedLength)
-                throw new ArgumentException(string.Format("Read error: Expected {0} arguments in the line separated by '{1}', read: {2}",
+                throw new RoverException(string.Format("Input read error: Expected {0} arguments in the line separated by '{1}', read: {2}",
                         expectedLength, Delimiter, dimensions.Length));
 
             return dimensions;
@@ -85,11 +85,11 @@ namespace Rovers.IO
                 case "S":
                     return Direction.South;
                 default:
-                    throw new ArgumentException(string.Format("Unexpected rover's direction: '{0}'", s));
+                    throw new RoverException(string.Format("Unexpected direction: '{0}'", s));
             }
         }
 
-        internal IEnumerable<IRoverAction> ReadRoverCommands()
+        internal IEnumerable<IRoverCommand> ReadRoverCommands()
         {
             while (!IsEndOfLine())
             {
@@ -107,7 +107,7 @@ namespace Rovers.IO
                         break;
                     default:
                         if (char.IsLetterOrDigit(ch))
-                            throw new ArgumentException(string.Format("Unexpected character '{0}' in rover's action sequence", ch));
+                            throw new RoverException(string.Format("Unexpected character '{0}' in rover's action sequence", ch));
                         break;
                 }
             }

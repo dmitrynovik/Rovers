@@ -1,7 +1,7 @@
 ﻿namespace Rovers.App.RoverCommands
 {
-    internal interface IRoverAction
+    internal interface IRoverCommand
     {
-        void Perform(Rover r, IRoverValidator validator);
+        void Execute(Rover r, IRoverValidator validator);
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Rovers.App
 {
-    internal enum Direction
+    public enum Direction
     {
         North = 0, // clockwise
         East,

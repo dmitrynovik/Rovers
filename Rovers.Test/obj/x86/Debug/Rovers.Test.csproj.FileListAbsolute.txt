@@ -1,7 +1,0 @@
-C:\Projects\Rovers\Rovers\Rovers.Test\bin\Debug\Rovers.Test.exe
-C:\Projects\Rovers\Rovers\Rovers.Test\bin\Debug\Rovers.Test.pdb
-C:\Projects\Rovers\Rovers\Rovers.Test\bin\Debug\Rovers.dll
-C:\Projects\Rovers\Rovers\Rovers.Test\bin\Debug\Rovers.pdb
-C:\Projects\Rovers\Rovers\Rovers.Test\obj\x86\Debug\Rovers.Test.csprojResolveAssemblyReference.cache
-C:\Projects\Rovers\Rovers\Rovers.Test\obj\x86\Debug\Rovers.Test.exe
-C:\Projects\Rovers\Rovers\Rovers.Test\obj\x86\Debug\Rovers.Test.pdb

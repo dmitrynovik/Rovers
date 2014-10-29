@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Rovers.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Towers Watson")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Rovers.Test")]
-[assembly: AssemblyCopyright("Copyright © Towers Watson 2012")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e39d5af9-c096-4acf-a7aa-7b0942b66fb5")]
+[assembly: Guid("976f1bc2-0902-4d26-99e0-789bd6e17830")]
 
 // Version information for an assembly consists of the following four values:
 //

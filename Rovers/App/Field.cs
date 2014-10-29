@@ -16,7 +16,7 @@ namespace Rovers.App
         public void Validate(Rover r)
         {
             if ((r.Y > Height) || (r.X > Length) || (r.Y < 0) || (r.X < 0))
-                throw new ArgumentException(string.Format("Rover coordnates [{0},{1}] out of field's bounds [{2},{3}]",
+                throw new RoverException(string.Format("Rover coordnates [{0},{1}] out of field's bounds [{2},{3}]",
                                                           r.X, r.Y, Length, Height));
         }
     }

@@ -1,8 +1,8 @@
 ﻿namespace Rovers.App.RoverCommands
 {
-    internal class ActionRotateLeft : IRoverAction
+    internal class ActionRotateLeft : IRoverCommand
     {
-        public void Perform(Rover r, IRoverValidator validator)
+        public void Execute(Rover r, IRoverValidator validator)
         {
             RotateImpl.Rotate(r, false);
         }

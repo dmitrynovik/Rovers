@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Projects\Rovers\Rovers\Rovers.Test\bin\Debug\Rovers.Test.dll" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-10-29" time="21:47:20">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Projects\Rovers\Rovers\Rovers.Test\bin\Debug" machine-name="DMITRY-DESKTOP" user="Dmitry" user-domain="Dmitry-Desktop" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Projects\Rovers\Rovers\Rovers.Test\bin\Debug\Rovers.Test.dll" executed="True" result="Success" success="True" time="0.079" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Rovers" executed="True" result="Success" success="True" time="0.061" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="0.061" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="RoverTest" executed="True" result="Success" success="True" time="0.059" asserts="0">
+                <results>
+                  <test-case name="Rovers.Test.RoverTest.When_Erroneous_Character_In_Input_Exception_IsThrown" executed="True" result="Success" success="True" time="0.023" asserts="0" />
+                  <test-case name="Rovers.Test.RoverTest.When_Incomplete_Input_Exception_IsThrown" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="Rovers.Test.RoverTest.When_Input_Valid_Output_Is_Correct" executed="True" result="Success" success="True" time="0.018" asserts="1" />
+                  <test-case name="Rovers.Test.RoverTest.When_Out_Of_Bounds_Exception_IsThrown" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,8 +1,8 @@
 ﻿namespace Rovers.App.RoverCommands
 {
-    internal class CommandMove : IRoverAction
+    internal class CommandMove : IRoverCommand
     {
-        public void Perform(Rover r, IRoverValidator validator)
+        public void Execute(Rover r, IRoverValidator validator)
         {
             switch (r.Direction)
             {
