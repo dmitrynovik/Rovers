@@ -2,7 +2,7 @@
 {
     internal class CommandMove : IRoverCommand
     {
-        public void Execute(Rover r, IRoverValidator validator)
+        public void Execute(Rover r, Field field)
         {
             switch (r.Direction)
             {
@@ -20,8 +20,8 @@
                     break;
             }
 
-            if (validator != null)
-                validator.Validate(r);
+            if (field != null)
+                field.ValidateBounds(r);
         }
     }
 }

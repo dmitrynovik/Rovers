@@ -43,7 +43,6 @@
     <Compile Include="App\RoversApplication.cs" />
     <Compile Include="App\Direction.cs" />
     <Compile Include="App\Field.cs" />
-    <Compile Include="App\IRoverValidator.cs" />
     <Compile Include="App\RoverCommands\CommandMove.cs" />
     <Compile Include="App\RoverCommands\RotateImpl.cs" />
     <Compile Include="App\RoverCommands\CommandRotateLeft.cs" />

@@ -2,7 +2,7 @@
 
 namespace Rovers.App
 {
-    internal class Field : IRoverValidator
+    internal class Field
     {
         public int Length { get; private set; }
         public int Height  { get; private set; }
@@ -13,7 +13,7 @@ namespace Rovers.App
             Height = height;
         }
 
-        public void Validate(Rover r)
+        public void ValidateBounds(Rover r)
         {
             if ((r.Y > Height) || (r.X > Length) || (r.Y < 0) || (r.X < 0))
                 throw new RoverException(string.Format("Rover coordnates [{0},{1}] out of field's bounds [{2},{3}]",

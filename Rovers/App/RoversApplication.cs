@@ -5,7 +5,7 @@ using Rovers.IO;
 
 namespace Rovers.App
 {
-    // The main class of the solution. IO-agnostic and command-agnostic.
+    // The main class of the solution (IO-agnostic and command-agnostic)
     public class RoversApplication
     {
         private InputReader  _reader;

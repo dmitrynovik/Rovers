@@ -66,7 +66,7 @@ namespace Rovers.IO
             return dimensions;
         }
 
-        public Rover ReadRover(IRoverValidator validator)
+        public Rover ReadRover(Field plateau)
         {
             var args = ReadLineTokens(3);
             return new Rover() {X = ParseNumber(args[0]), Y = ParseNumber(args[1]), Direction = StringToDirection(args[2])};

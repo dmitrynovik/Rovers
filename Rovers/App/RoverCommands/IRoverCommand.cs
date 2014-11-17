@@ -2,6 +2,6 @@
 {
     internal interface IRoverCommand
     {
-        void Execute(Rover r, IRoverValidator validator);
+        void Execute(Rover r, Field plateau);
     }
 }

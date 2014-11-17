@@ -2,7 +2,7 @@
 {
     internal class ActionRotateRight : IRoverCommand
     {
-        public void Execute(Rover r, IRoverValidator validator)
+        public void Execute(Rover r, Field plateau)
         {
             RotateImpl.Rotate(r, true);
         }
